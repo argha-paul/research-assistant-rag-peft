@@ -1,0 +1,31 @@
+# Core LLM
+ollama
+
+# Embeddings (lightweight)
+sentence-transformers
+
+# Vector DB (fast)
+chromadb
+
+# Advanced RAG components
+rank-bm25
+scipy           
+
+# Document Processing
+pypdf
+python-docx
+arxiv
+
+# Fine-tuning (LoRA)
+torch
+transformers
+peft
+datasets
+accelerate
+bitsandbytes
+
+# Utilities
+tqdm
+python-dotenv
+tiktoken
+numpy
