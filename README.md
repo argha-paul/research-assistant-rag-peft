@@ -438,12 +438,6 @@ training_args = TrainingArguments(
   "context": "From 'Attention is All You Need' paper..."
 }
 
-# Domain-specific example (Medical)
-{
-  "instruction": "What are the symptoms of condition X?",
-  "response": "Common symptoms include...",
-  "context": "Medical literature excerpt..."
-}
 ```
 
 ## 📈 Performance Tips
@@ -476,22 +470,12 @@ Contributions welcome! Areas of interest:
 - Quantization (QLoRA) implementation
 - Automated hyperparameter tuning
 
-## 📄 License
-
-MIT License - see [LICENSE](LICENSE) file for details
-
 ## 🙏 Acknowledgments
 
 - [Sentence-Transformers](https://www.sbert.net/) for embedding models
 - [Hugging Face](https://huggingface.co/) for PEFT and Transformers
 - [ChromaDB](https://www.trychroma.com/) for vector storage
 - [Ollama](https://ollama.ai/) for local LLM inference
-
-## 📞 Contact
-
-For questions or collaboration:
-- GitHub Issues: [Report bugs or request features](https://github.com/yourusername/ai-research-assistant/issues)
-- Email: your.email@example.com
 
 ---
 
